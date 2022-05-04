@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial Black";
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("banner.png");
+    background-color: snow;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width:100%;
+    margin:auto;
+    padding: 0;
+    display:flex;
+    align-items: center;
+    justify-content; space-between;
+}
+.logo{
+    width: 140px;
+}
+header,footer{
+    position:absolute;
+    background-color:#B3A369;
+    width:100%;
+    color:black
+}
+header{
+    height: 140px;
+}
+footer{
+    height: 5vh;
+    bottom:0;
+}
+footer h3{
+    position: absolute;
+    left:45%;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    tranform: translateY(-50%);
+    text-align: center;
+    color: black;
+}
+button{
+    width: 300px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 25px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 5px solid #B3A369;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #B3A369;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width:100%;
+}
+button:hover{
+    border: none;
+}
+.heading{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    tranform: translateY(-50%);
+    text-align: center;
+    color: black;
+    font-family: "fantasy";
+
+}
+
+.sub-heading{
+    width: 100%;
+    position: absolute;
+    top: 18%;
+    text-align: center;
+    color: black;
+}
+
+
+.name{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    font-family: cursive;
+    color: darkblue;
+}
+
+.desc{
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    font-family: cursive;
+    color: darkblue;
+}
+
+
+button2{
+    width: 300px;
+    padding: 20px 0;
+    text-align: center;
+    top: 10%;
+    margin: 25px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 5px solid #B3A369;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.cap{
+    width: 100%;
+    position: absolute;
+    top: 74%;
+    text-align: center;
+    color: black;
+}
+.cap2{
+    width: 100%;
+    position: absolute;
+    top: 74%;
+    text-align: center;
+    color: black;
+}
